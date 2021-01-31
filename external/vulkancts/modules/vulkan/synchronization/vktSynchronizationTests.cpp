@@ -34,6 +34,7 @@
 #include "vktSynchronizationSignalOrderTests.hpp"
 #include "vktSynchronizationTimelineSemaphoreTests.hpp"
 #include "vktSynchronizationWin32KeyedMutexTests.hpp"
+#include "vktSchedulerLOBETests.hpp"
 #include "vktSynchronizationUtil.hpp"
 
 #include "deUniquePtr.hpp"
@@ -86,6 +87,7 @@ void createChildren (tcu::TestCaseGroup* group)
 	group->addChild(synchronization::createCrossInstanceSharingTest(testCtx));
 	group->addChild(synchronization::createWin32KeyedMutexTest(testCtx));
 	group->addChild(synchronization::createSignalOrderTests(testCtx));
+	group->addChild(synchronization::createSchedulerLOBETests(testCtx));
 }
 
 } // anonymous

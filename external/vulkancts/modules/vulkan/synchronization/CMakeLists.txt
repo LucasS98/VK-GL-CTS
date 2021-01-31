@@ -33,6 +33,8 @@ set(DEQP_VK_SYNCHRONIZATION_SRCS
 	vktSynchronizationSignalOrderTests.hpp
 	vktSynchronizationWin32KeyedMutexTests.cpp
 	vktSynchronizationWin32KeyedMutexTests.hpp
+	vktSchedulerLOBETests.hpp
+	vktSchedulerLOBETests.cpp
 	)
 
 set(DEQP_VK_SYNCHRONIZATION_LIBS
